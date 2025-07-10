@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Power BI, Excel e JavaScript</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="bg-dark text-white text-center py-5">
+    <img src="imagens/foto-perfil.jpg" class="rounded-circle mb-3" alt="Foto de Perfil" width="150" height="150" />
+    <h1>Gabriel Reis</h1>
+    <p class="lead">Estudante com foco em Power BI, Excel e JavaScript</p>
+    <button class="btn btn-outline-light" onclick="alternarTema()">Alternar Tema</button>
+  </header>
+
+  <main class="container my-5">
+    <section class="mb-5">
+      <h2>Sobre mim</h2>
+      <p>Sou estudante do ensino médio com interesse em tecnologia, análise de dados e desenvolvimento web.
+        Tenho experiência com Power BI, Excel Avançado e conhecimentos básicos em JavaScript para criar interações simples na web.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2>Habilidades</h2>
+      <span class="badge bg-primary">Power BI</span>
+      <span class="badge bg-success">Excel Avançado</span>
+      <span class="badge bg-warning text-dark">JavaScript</span>
+      <span class="badge bg-secondary">Dashboards</span>
+    </section>
+
+    <section class="mb-5">
+      <h2>Projetos</h2>
+      <div class="row">
+        <!-- Projeto Power BI -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/powerbi-dashboard.png" class="card-img-top" alt="Dashboard Power BI" />
+            <div class="card-body">
+              <h5 class="card-title">Dashboard de Vendas - Power BI</h5>
+              <p class="card-text">Criação de dashboard interativo com filtros, gráficos e mapas geográficos em Power BI.</p>
+              <a href="https://app.powerbi.com/..." class="btn btn-primary" target="_blank">Ver Projeto</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto Excel -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/excel-relatorio.png" class="card-img-top" alt="Relatório Excel" />
+            <div class="card-body">
+              <h5 class="card-title">Relatório Financeiro - Excel</h5>
+              <p class="card-text">Relatório com fórmulas avançadas, tabelas dinâmicas e gráficos para análise mensal.</p>
+              <a href="https://drive.google.com/..." class="btn btn-success" target="_blank">Baixar Arquivo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto JavaScript -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/js-projeto.png" class="card-img-top" alt="Projeto JavaScript" />
+            <div class="card-body">
+              <h5 class="card-title">Calculadora de Média Escolar - JavaScript</h5>
+              <p class="card-text">Uma página que recebe notas, calcula a média e informa se o aluno foi aprovado ou não. Desenvolvida com HTML, CSS e JavaScript puro.</p>
+              <a href="https://github.com/seuusuario/calculadora-media" class="btn btn-warning" target="_blank">Ver Código</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2>Contato</h2>
+      <ul>
+        <li>Email: gabrielreis@email.com</li>
+        <li>GitHub: <a href="https://github.com/pocket1234567890" target="_blank">pocket1234567890</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Gabriel Reis - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function alternarTema() {
+      document.body.classList.toggle("bg-dark");
+      document.body.classList.toggle("text-white");
+    }
+  </script>
+</body>
+
+</html>
